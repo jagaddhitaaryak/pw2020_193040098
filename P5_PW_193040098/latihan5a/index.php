@@ -33,10 +33,12 @@
 
 	<?php $i = 1 ?>
 	<?php while ( $row = mysqli_fetch_assoc($result) ) : ?>
-		<tr>
+		<tr style="text-align: center;font-size: 20px; background-color: lightblue;">
 			<td><?= $i ?></td>
 			<td><img src="assets/cover/<?= $row["cover"]; ?>"></td>
-			<td><?= $row["judul"]?></td>
+			<td style="font-style: italic;">
+				<?= $row["judul"]?>
+			</td>
 			<td><?= $row["penerbit"]?></td>
 			<td><?= $row["jumlah_halaman"]?></td>
 			<td><?= $row["tgl_rilis"]?></td>
