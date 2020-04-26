@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 18, 2020 at 12:12 PM
+-- Generation Time: Apr 26, 2020 at 01:11 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.1.32
 
@@ -54,9 +54,7 @@ INSERT INTO `buku` (`no`, `cover`, `judul`, `penerbit`, `jumlah_halaman`, `tgl_r
 (7, '7.jpg', 'STOP Jadi YouTuber! Kalau Nggak Tahu Cara Marketingnya', 'Elex Media Komputindo', 196, '2020-03-02', 'Jefferly Helianthusonfri', 'STOP Jadi YouTuber! Kini semua orang berlomba-lomba jadi YouTuber, tapi jangan jadi YouTuber yang biasa-biasa aja. Jadilah luar biasa! Tak hanya itu, Anda bisa jadikan YouTube sebagai mesin promosi bisnis yang beroperasi 24 jam sehari tanpa henti. Bagaimana caranya? Buku ini akan memandu Anda belajar YouTube marketing. Berisi panduan lengkap, detail, dan mudah dipahami untuk belajar YouTube marketing. Usai praktik isi buku ini, bisnis dan profil Anda akan makin terkenal. Plus bisa dapat banyak pelanggan dari YouTube dan jadi YouTuber luar biasa. Temukan rahasia dan panduan lengkapnya di buku ini.', 'Rp. 75.000'),
 (8, '8.jpg', 'Sukses Bisnis Afiliasi 4.0', 'Elex Media Komputindo', 228, '2020-02-19', 'Arista Prasetyo Adi', 'E-commerce sudah memasuki era 4.0 di mana kolaborasi antara online dan offline sedang berlangsung. Didukung dengan teknologi pembayaran yang canggih dan simpel serta jasa kurir yang beragam, E-Commerce semakin memikat hati. Semua orang bisa berjualan di internet, termasuk Anda. Toko Online dan Marketplace tidak lagi bekerja sendiri dalam memasarkan produknya. Konsep afiliasi sudah diterapkan untuk menggaet semakin banyak pembeli. Konsep afiliasi ini merupakan peluang bagi Anda untuk ikut berjualan di internet hanya bermodalkan blog. Bagaimana caranya? Simak caranya dalam buku ini.', 'Rp. 60.000'),
 (9, '9.jpg', 'Menulis Skripsi, Jurnal, dan Tulisan Ilmiah dengan MS Word', 'Elex Media Komputindo', 250, '2020-02-24', 'Jubilee Enterprise', 'Menulis skripsi, jurnal, tesis, atau karya ilmiah lainnya membutuhkan penelitian dan pengetahuan teknis. Anda harus mengetahui cara membuat struktur dan menerapkannya di komputer. Oleh karena itu, buku ini dibuat untuk membantu siswa, mahasiswa, dosen, peneliti, atau mereka yang membuat laporan penelitian agar bisa menggunakan MS Word dengan baik. Bahasan di dalam buku ini terfokus pada cara mengoperasikan MS Word untuk tujuan penulisan skripsi dan sejenisnya. Di akhir buku diberikan bonus tentang cara-cara menggunakan SPSS. Itu semua dibuat untuk satu tujuan, yaitu sukses menulis skripsi, jurnal, karya ilmiah, maupun tesis.Jika Anda tertarik di bidang penulisan akademik namun tidak memiliki pengetahuan memadai tentang MS Word, buku ini cocok untuk Anda baca!', 'Rp. 70.000'),
-(10, '10.jpg', 'Dasar-Dasar Animasi Komputer', 'Elex Media Komputindo', 244, '2020-03-02', 'Jubilee Enterprise', 'Animasi adalah gambar bergerak yang dibentuk dari sekumpulan objek yang disusun secara beraturan dengan kecepatan tertentu. Di era modern saat ini, animasi dibuat menggunakan komputer baik secara menyeluruh maupun sebagian. Apabila Anda tertarik mempelajari cara pembuatan animasi, buku ini adalah langkah awal yang paling bagus untuk dibaca. Ada tiga buah peranti lunak yang dibahas. Pertama adalah Adobe Animate yang dipakai untuk membuat animasi dua dimensi. Sedangkan yang kedua adalah 3D Studio Max untuk pembuatan animasi tiga dimensi. Untuk Anda penggemar animasi dan movie editing, Anda bisa memanfaatkan peranti lunak yang ketiga, yaitu Adobe After Effects. Dengan membaca buku ini, Anda akan mengenal aneka cara pembuatan animasi menggunakan komputer pribadi. Harapannya, Anda dapat masuk ke dalam industri animasi dan mendapatkan manfaat jangka panjang di bidang ini.', 'Rp. 70.000'),
-(12, '1.jpg', 'ARYA GANTENG', 'ARYAAAA', 120, '2020-04-28', 'Koswara', 'HAHAHAHAHHAHA', 'Rp. 39.000'),
-(13, '10.jpg', 'Aryaa Ganteng pisan', 'Kosawara', 990, '2020-04-14', 'Jagad', 'Jagaddhita Arya Koswara', 'Rp. 120.000');
+(10, '10.jpg', 'Dasar-Dasar Animasi Komputer', 'Elex Media Komputindo', 244, '2020-03-02', 'Jubilee Enterprise', 'Animasi adalah gambar bergerak yang dibentuk dari sekumpulan objek yang disusun secara beraturan dengan kecepatan tertentu. Di era modern saat ini, animasi dibuat menggunakan komputer baik secara menyeluruh maupun sebagian. Apabila Anda tertarik mempelajari cara pembuatan animasi, buku ini adalah langkah awal yang paling bagus untuk dibaca. Ada tiga buah peranti lunak yang dibahas. Pertama adalah Adobe Animate yang dipakai untuk membuat animasi dua dimensi. Sedangkan yang kedua adalah 3D Studio Max untuk pembuatan animasi tiga dimensi. Untuk Anda penggemar animasi dan movie editing, Anda bisa memanfaatkan peranti lunak yang ketiga, yaitu Adobe After Effects. Dengan membaca buku ini, Anda akan mengenal aneka cara pembuatan animasi menggunakan komputer pribadi. Harapannya, Anda dapat masuk ke dalam industri animasi dan mendapatkan manfaat jangka panjang di bidang ini.', 'Rp. 70.000');
 
 --
 -- Indexes for dumped tables
@@ -76,7 +74,7 @@ ALTER TABLE `buku`
 -- AUTO_INCREMENT for table `buku`
 --
 ALTER TABLE `buku`
-  MODIFY `no` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `no` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
