@@ -73,7 +73,7 @@
 	<?php $i = 1; ?>
 	<?php foreach ($buku as $row) : ?>
 		<tr style="text-align: center;font-size: 20px; background-color: lightblue;">
-			<td><?= $i; ?></td>
+			<td><?= $i; ?></td	>
 			<td>
 				<a href="ubah.php?no=<?= $row['no']?>" class="btn btn-primary navbar-brand text-white">
 					Ubah

@@ -1,0 +1,35 @@
+body {
+	background-color: lightblue;
+	font-family: arial;
+	color: #fff;
+}
+
+h1{
+	text-align: center;
+	color: rgba(0,0,0,.5);
+}
+form	{
+	margin-top: 7%;
+}
+
+.box {
+	width: 600px;
+	height: 530px;
+	margin-left: 30%;
+	background-color: rgba(0,0,0,.5);
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: -1px;	
+	
+}
+
+.kotak-isian {
+	text-align: center;
+	position: relative;
+
+}
+
+.tombol {
+	margin-left: 37.5%;
+	margin-top: 5%;
+}
